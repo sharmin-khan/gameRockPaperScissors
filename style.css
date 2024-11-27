@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #dde5b6;
+    font-family: "Roboto", sans-serif;
+
+}
+
+.container {
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 30px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+
+h1 {
+    font-size: 3.5rem;
+    color: #218c74;
+    text-align: center;
+}
+
+
+#choose {
+    margin: 30px;
+}
+
+#choose button {
+    margin: 15px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: #dde5b6;
+}
+
+#choose button:hover {
+    background-color: #a98467;
+}
+
+img {
+    height: 200px;
+    width: 200px
+}
+
+#playerDisplay,
+#computerDisplay {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #218c74;
+
+}
+
+#resultDisplay {
+    font-size: 3rem;
+    margin-top: 20px;
+
+}
+
+.greenText {
+    color: green;
+}
+
+.redText {
+    color: red;
+}
